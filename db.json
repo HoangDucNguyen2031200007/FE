@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Hoang Duc",
+      "lastName": "Nguyen",
+      "address": "Hanoi",
+      "dateOfBirth": "23/08/2000",
+      "phoneNumber": "0913077644"
+    },
+    {
+      "id": 2,
+      "firstName": "Duc Huy",
+      "lastName": "Mai",
+      "address": "Vung Tau",
+      "dateOfBirth": "15/07/2000",
+      "phoneNumber": "0987654321"
+    },
+    {
+      "id": 3,
+      "firstName": "Chi Cao",
+      "lastName": "Ha",
+      "address": "Dak Lak",
+      "dateOfBirth": "16/06/2000",
+      "phoneNumber": "0876543291"
+    },
+    {
+      "id": 4,
+      "firstName": "Xuan Doanh",
+      "lastName": "Nguyen",
+      "address": "Nghe An",
+      "dateOfBirth": "11/12/2000",
+      "phoneNumber": "0969546723"
+    },
+    {
+      "id": 5,
+      "firstName": "Phuong Anh",
+      "lastName": "Nguyen Thi",
+      "address": "Binh Dinh",
+      "dateOfBirth": "13/05/2000",
+      "phoneNumber": "0878459124"
+    }
+  ]
+}
