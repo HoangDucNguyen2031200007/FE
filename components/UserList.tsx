@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import User from "./User";
 import { UserData } from "../types";
+import axios from "axios";
 
 export default function UserList() {
   const USER_API_BASE_URL = "http://localhost:3001/users";
@@ -13,13 +14,14 @@ export default function UserList() {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const response = await fetch(USER_API_BASE_URL, {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
-        const users = await response.json();
+        // const response = await fetch(USER_API_BASE_URL, {
+        //   method: "GET",
+        //   headers: {
+        //     "Content-Type": "application/json",
+        //   },
+        // });
+        const response = await axios.get(USER_API_BASE_URL);
+        const users = await response.data;
         setUsers(users);
       } catch (error) {
         console.log(error);
